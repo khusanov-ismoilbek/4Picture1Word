@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/ic_baseline_arrow_back.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/ic_gold_coin_2017072636.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/selector_coin.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/selector_coin2.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/selector_variant.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/shape_answer_bg.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/shape_dialog.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/shape_dialog_settings.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable-v24/shape_image_game.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/continue_bg.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/ic_baseline_arrow_back.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/ic_baseline_arrow_forward_ios.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/ic_gold_coin_2017072636.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/ic_launcher_background.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/selector_coin.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/selector_coin2.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/selector_variant.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/shape_answer_bg.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/shape_dialog.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/shape_dialog_settings.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/shape_image_game.xml" value="0.105" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/shape_no.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/drawable/shape_yes.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/activity_dialog_settings.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/activity_game.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/activity_main.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/activity_package.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/dialog_prompt.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/dialog_settings.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/dialog_win.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/item_package.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/screen_game.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/4Picture1Word/app/src/main/res/layout/screen_main.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

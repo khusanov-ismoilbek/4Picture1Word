@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D283B"
+    tools:context=".presentation.ui.screen.GameScreen">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="#258ED8"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btnBackOfGameActivity"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:padding="4dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:id="@+id/level_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:text="Level 1" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:src="@drawable/ic_coin" />
+
+            <TextView
+                android:id="@+id/coinsOfGameActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="9dp"
+                android:background="@drawable/shape_coin"
+                android:paddingHorizontal="28dp"
+                android:paddingVertical="6dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="123" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+        tools:src="@drawable/yi1er1er1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+        tools:src="@drawable/yi1er1er2" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+        tools:src="@drawable/yi1er1er3" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+        tools:src="@drawable/yi1er1er4" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_image_game"
+        android:orientation="horizontal"
+        android:padding="18dp"
+        app:constraint_referenced_ids="image1, image2, image3, image4"
+        app:flow_horizontalGap="16dp"
+        app:flow_maxElementsWrap="2"
+        app:flow_verticalGap="8dp"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toBottomOf="@id/guideline1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/action_bar" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.73" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/answer_root"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="12dp"
+        android:background="#258ED8"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline1">
+
+        <TextView
+            android:id="@+id/answer1"
+            style="@style/style_answer" />
+
+        <TextView
+            android:id="@+id/answer2"
+            style="@style/style_answer" />
+
+        <TextView
+            android:id="@+id/answer3"
+            style="@style/style_answer" />
+
+        <TextView
+            android:id="@+id/answer4"
+            style="@style/style_answer" />
+
+        <TextView
+            android:id="@+id/answer5"
+            style="@style/style_answer" />
+
+        <TextView
+            android:id="@+id/answer6"
+            style="@style/style_answer" />
+
+        <TextView
+            android:id="@+id/answer7"
+            style="@style/style_answer" />
+
+        <TextView
+            android:id="@+id/answer8"
+            style="@style/style_answer" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/variant1"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant2"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+
+    <TextView
+        android:id="@+id/variant3"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+
+    <TextView
+        android:id="@+id/variant4"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant5"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant6"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant7"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant8"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant9"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant10"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant11"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <TextView
+        android:id="@+id/variant12"
+        style="@style/style_variant"
+        app:layout_constraintDimensionRatio="1:1" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:constraint_referenced_ids="variant1, variant2, variant3, variant4, variant5, variant6, variant7, variant8, variant9, variant10, variant11, variant12"
+        app:flow_horizontalGap="8dp"
+        app:flow_maxElementsWrap="6"
+        app:flow_verticalGap="8dp"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toTopOf="@id/guideline3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline2" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+</androidx.constraintlayout.widget.ConstraintLayout>
